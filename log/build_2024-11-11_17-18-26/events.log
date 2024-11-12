@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.001670] (py_launch_example) JobQueued: {'identifier': 'py_launch_example', 'dependencies': OrderedDict()}
+[0.002325] (py_launch_example) JobStarted: {'identifier': 'py_launch_example'}
+[0.100455] (-) TimerEvent: {}
+[0.201046] (-) TimerEvent: {}
+[0.301807] (-) TimerEvent: {}
+[0.403255] (-) TimerEvent: {}
+[0.503642] (-) TimerEvent: {}
+[0.604043] (-) TimerEvent: {}
+[0.704468] (-) TimerEvent: {}
+[0.804786] (-) TimerEvent: {}
+[0.907552] (-) TimerEvent: {}
+[1.007916] (-) TimerEvent: {}
+[1.108580] (-) TimerEvent: {}
+[1.208957] (-) TimerEvent: {}
+[1.309872] (-) TimerEvent: {}
+[1.410363] (-) TimerEvent: {}
+[1.510947] (-) TimerEvent: {}
+[1.614263] (-) TimerEvent: {}
+[1.714712] (-) TimerEvent: {}
+[1.817163] (-) TimerEvent: {}
+[1.917632] (-) TimerEvent: {}
+[2.018921] (-) TimerEvent: {}
+[2.119954] (-) TimerEvent: {}
+[2.222265] (-) TimerEvent: {}
+[2.322734] (-) TimerEvent: {}
+[2.423241] (-) TimerEvent: {}
+[2.525253] (-) TimerEvent: {}
+[2.625787] (-) TimerEvent: {}
+[2.726406] (-) TimerEvent: {}
+[2.775685] (py_launch_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_launch_example', 'build', '--build-base', '/home/shibin/ros2_ws/build/py_launch_example/build', 'install', '--record', '/home/shibin/ros2_ws/build/py_launch_example/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shibin/ros2_ws/src/py_launch_example', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/shibin/ardupilot_gazebo/build:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/shibin/ros2_ws/src/py_launch_example/models:/home/shibin/ros2_ws/src/py_launch_example/worlds:', 'LANGUAGE': 'en_IN:en', 'USER': 'shibin', 'GZ_CONFIG_PATH': '/usr/share/gz/', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shibin', 'OLDPWD': '/home/shibin/ros2_ws/src/drones_ROS2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1637', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shibin/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shibin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shibin', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/shibin/.gz/fuel', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/usr/lib/ccache:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/usr/lib/ccache:/home/shibin/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/shibin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shibin/Micro-XRCE-DDS-Gen/scripts:/home/shibin/.local/bin:/home/shibin/ardupilot/Tools/autotest:/home/shibin/ros2_ws/src/Micro-XRCE-DDS-Gen/scripts', 'SESSION_MANAGER': 'local/shibin-mi-notebook:@/tmp/.ICE-unix/1608,unix/shibin-mi-notebook:/tmp/.ICE-unix/1608', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8af87370_7689_45c7_837f_d6d400304e43', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'gazebo_DIR': '/usr/share/gazebo/cmake', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XXOHX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.168', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '22', 'AMENT_PREFIX_PATH': '/home/shibin/ros2_ws/install/test_01:/home/shibin/ros2_ws/install/py_launch_example:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shibin/ros2_ws/build/py_launch_example', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shibin/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/shibin/ros2_ws/install/test_01'}, 'shell': False}
+[2.826531] (-) TimerEvent: {}
+[2.927776] (-) TimerEvent: {}
+[3.028278] (-) TimerEvent: {}
+[3.132443] (-) TimerEvent: {}
+[3.232942] (-) TimerEvent: {}
+[3.333457] (-) TimerEvent: {}
+[3.435687] (-) TimerEvent: {}
+[3.536123] (-) TimerEvent: {}
+[3.636652] (-) TimerEvent: {}
+[3.739268] (-) TimerEvent: {}
+[3.766387] (py_launch_example) StdoutLine: {'line': b'running egg_info\n'}
+[3.772410] (py_launch_example) StdoutLine: {'line': b'creating ../../build/py_launch_example/py_launch_example.egg-info\n'}
+[3.839404] (-) TimerEvent: {}
+[3.843392] (py_launch_example) StdoutLine: {'line': b'writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO\n'}
+[3.844698] (py_launch_example) StdoutLine: {'line': b'writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt\n'}
+[3.845513] (py_launch_example) StdoutLine: {'line': b'writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt\n'}
+[3.845929] (py_launch_example) StdoutLine: {'line': b'writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt\n'}
+[3.846337] (py_launch_example) StdoutLine: {'line': b"writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[3.939551] (-) TimerEvent: {}
+[3.998217] (py_launch_example) StdoutLine: {'line': b"reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[4.000217] (py_launch_example) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.001812] (py_launch_example) StdoutLine: {'line': b"writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[4.002972] (py_launch_example) StdoutLine: {'line': b'running build\n'}
+[4.003664] (py_launch_example) StdoutLine: {'line': b'running build_py\n'}
+[4.004925] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/build/py_launch_example/build\n'}
+[4.005168] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/build/py_launch_example/build/lib\n'}
+[4.005428] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/build/py_launch_example/build/lib/py_launch_example\n'}
+[4.005653] (py_launch_example) StdoutLine: {'line': b'copying py_launch_example/__init__.py -> /home/shibin/ros2_ws/build/py_launch_example/build/lib/py_launch_example\n'}
+[4.005871] (py_launch_example) StdoutLine: {'line': b'running install\n'}
+[4.022176] (py_launch_example) StdoutLine: {'line': b'running install_lib\n'}
+[4.040194] (-) TimerEvent: {}
+[4.087148] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example\n'}
+[4.087655] (py_launch_example) StdoutLine: {'line': b'copying /home/shibin/ros2_ws/build/py_launch_example/build/lib/py_launch_example/__init__.py -> /home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example\n'}
+[4.089019] (py_launch_example) StdoutLine: {'line': b'byte-compiling /home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example/__init__.py to __init__.cpython-310.pyc\n'}
+[4.089664] (py_launch_example) StdoutLine: {'line': b'running install_data\n'}
+[4.090082] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/install/py_launch_example/share/ament_index\n'}
+[4.090503] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/install/py_launch_example/share/ament_index/resource_index\n'}
+[4.090826] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages\n'}
+[4.090994] (py_launch_example) StdoutLine: {'line': b'copying resource/py_launch_example -> /home/shibin/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages\n'}
+[4.091274] (py_launch_example) StdoutLine: {'line': b'copying package.xml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example\n'}
+[4.091618] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch\n'}
+[4.091885] (py_launch_example) StdoutLine: {'line': b'copying launch/drone_gazebo_launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch\n'}
+[4.092199] (py_launch_example) StdoutLine: {'line': b'copying launch/wildthumper_playpen.launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch\n'}
+[4.092582] (py_launch_example) StdoutLine: {'line': b'copying launch/iris_maze.launchx.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch\n'}
+[4.092958] (py_launch_example) StdoutLine: {'line': b'copying launch/my_script_launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch\n'}
+[4.093283] (py_launch_example) StdoutLine: {'line': b'copying launch/iris_maze.launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch\n'}
+[4.093668] (py_launch_example) StdoutLine: {'line': b'copying launch/iris_runway.launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch\n'}
+[4.094066] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.094363] (py_launch_example) StdoutLine: {'line': b'copying worlds/world.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.106005] (py_launch_example) StdoutLine: {'line': b'copying worlds/zephyr_parachute.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.106588] (py_launch_example) StdoutLine: {'line': b'copying worlds/harmonic.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.107291] (py_launch_example) StdoutLine: {'line': b'copying worlds/iris_runway.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.107880] (py_launch_example) StdoutLine: {'line': b'copying worlds/tugbot_warehouse.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.108559] (py_launch_example) StdoutLine: {'line': b'copying worlds/wildthumper_playpen.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.109079] (py_launch_example) StdoutLine: {'line': b'copying worlds/world_lakehouse.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.109732] (py_launch_example) StdoutLine: {'line': b'copying worlds/iris_maze.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.110414] (py_launch_example) StdoutLine: {'line': b'copying worlds/gimbal.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.110985] (py_launch_example) StdoutLine: {'line': b'copying worlds/zephyr_runway.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.111569] (py_launch_example) StdoutLine: {'line': b'copying worlds/training_env.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.112095] (py_launch_example) StdoutLine: {'line': b'copying worlds/iris_warehouse.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds\n'}
+[4.112939] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config\n'}
+[4.113283] (py_launch_example) StdoutLine: {'line': b'copying config/iris_bridge.yaml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config\n'}
+[4.113795] (py_launch_example) StdoutLine: {'line': b'copying config/ros_gz_example_bridge.yaml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config\n'}
+[4.114345] (py_launch_example) StdoutLine: {'line': b'copying config/iris_lidar_bridge.yaml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config\n'}
+[4.114878] (py_launch_example) StdoutLine: {'line': b'copying config/wildthumper_bridge.yaml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config\n'}
+[4.115487] (py_launch_example) StdoutLine: {'line': b'creating /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz\n'}
+[4.115780] (py_launch_example) StdoutLine: {'line': b'copying rviz/iris.rviz -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz\n'}
+[4.116352] (py_launch_example) StdoutLine: {'line': b'copying rviz/iris_with_lidar.rviz -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz\n'}
+[4.116955] (py_launch_example) StdoutLine: {'line': b'copying rviz/drone_sensors.rviz -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz\n'}
+[4.117542] (py_launch_example) StdoutLine: {'line': b'copying rviz/wildthumper.rviz -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz\n'}
+[4.117998] (py_launch_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.140299] (-) TimerEvent: {}
+[4.188521] (py_launch_example) StdoutLine: {'line': b'Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info\n'}
+[4.190535] (py_launch_example) StdoutLine: {'line': b'running install_scripts\n'}
+[4.240430] (-) TimerEvent: {}
+[4.344487] (-) TimerEvent: {}
+[4.444994] (-) TimerEvent: {}
+[4.545998] (-) TimerEvent: {}
+[4.646513] (-) TimerEvent: {}
+[4.746889] (-) TimerEvent: {}
+[4.789605] (py_launch_example) StdoutLine: {'line': b"writing list of installed files to '/home/shibin/ros2_ws/build/py_launch_example/install.log'\n"}
+[4.847064] (-) TimerEvent: {}
+[4.853054] (py_launch_example) CommandEnded: {'returncode': 0}
+[4.882845] (py_launch_example) JobEnded: {'identifier': 'py_launch_example', 'rc': 0}
+[4.883779] (-) EventReactorShutdown: {}
