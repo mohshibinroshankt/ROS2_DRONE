@@ -13,8 +13,8 @@ config/iris_lidar_bridge.yaml
 config/ros_gz_example_bridge.yaml
 config/wildthumper_bridge.yaml
 launch/drone_gazebo_launch.py
+launch/iris_ardu_indo.py
 launch/iris_maze.launch.py
-launch/iris_maze.launchx.py
 launch/iris_runway.launch.py
 launch/my_script_launch.py
 launch/wildthumper_playpen.launch.py
@@ -27,6 +27,7 @@ rviz/wildthumper.rviz
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/iris_placeholder.urdf
 worlds/gimbal.sdf
 worlds/harmonic.sdf
 worlds/iris_maze.sdf

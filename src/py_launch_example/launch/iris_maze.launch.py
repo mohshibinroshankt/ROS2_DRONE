@@ -6,7 +6,7 @@ from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, Regi
 from launch.conditions import IfCondition
 from launch.event_handlers import OnProcessStart
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import LaunchConfiguration, PathJoinSubstitution , TextSubstitution
+from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 
@@ -27,16 +27,17 @@ def generate_launch_description():
             os.environ["SDF_PATH"] = gz_sim_resource_path
 
     # Load SDF file.
-    sdf_file = os.path.join(
-        pkg_py_launch_example, "models", "iris_with_lidar", "model.sdf"
-    )
+    sdf_file = os.path.join(pkg_py_launch_example, "models", "iris_with_lidar", "model.sdf")
     with open(sdf_file, "r") as infp:
         robot_desc = infp.read()
 
+
+    # urdf_file = os.path.join(pkg_py_launch_example, "urdf", "iris_placeholder.urdf")
+    # with open(urdf_file, "r") as urdf_infp:
+    #     robot_urdf_desc = urdf_infp.read()
     # Gazebo simulation.
     gz_sim = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')),
+        PythonLaunchDescriptionSource(os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')),
         launch_arguments={
            'gz_args': '-r ' + os.path.join(pkg_py_launch_example, 'worlds', 'iris_maze.sdf')
         }.items(),
@@ -53,7 +54,8 @@ def generate_launch_description():
         condition=IfCondition(LaunchConfiguration("rviz")),
     )
 
-    #joint state publisher
+
+    #     #joint state publisher
     joint_state_publisher_gui = Node(
     package='joint_state_publisher_gui',
     executable='joint_state_publisher_gui',
@@ -73,6 +75,17 @@ def generate_launch_description():
             {"frame_prefix": ""},
         ],
     )
+    # robot_state_publisher = Node(
+    # package="robot_state_publisher",
+    # executable="robot_state_publisher",
+    # name="robot_state_publisher",
+    # output="screen",
+    # parameters=[
+    #     {"robot_description": robot_urdf_desc},
+    #     {"use_sim_time": True}
+    # ],
+    # )
+
 
     # Bridge.
     bridge = Node(
@@ -89,8 +102,6 @@ def generate_launch_description():
         output="screen",
     )
 
-
-
     # Relay - use instead of transform when Gazebo is only publishing odom -> base_link
     topic_tools_tf = Node(
         package="topic_tools",
@@ -99,10 +110,6 @@ def generate_launch_description():
             "/gz/tf",
             "/tf",
             "tf2_msgs/msg/TFMessage",
-            "tf2_msgs.msg.TFMessage(transforms=[x for x in m.transforms if x.header.frame_id == 'odom'])",
-            "--import",
-            "tf2_msgs",
-            "geometry_msgs",
         ],
         output="screen",
         respawn=False,
@@ -111,15 +118,11 @@ def generate_launch_description():
 
     return LaunchDescription(
         [
-            DeclareLaunchArgument(
-                "rviz", default_value="true", description="Open RViz."
-            ),
-            DeclareLaunchArgument(
-                "use_gz_tf", default_value="true", description="Use Gazebo TF."
-            ),
+            DeclareLaunchArgument("rviz", default_value="true", description="Open RViz."),
+            DeclareLaunchArgument("use_gz_tf", default_value="true", description="Use Gazebo TF."),
             robot_state_publisher,
-            bridge,
             joint_state_publisher_gui,
+            bridge,
             RegisterEventHandler(
                 OnProcessStart(
                     target_action=bridge,
@@ -131,6 +134,7 @@ def generate_launch_description():
         ]
     )
 
-#  ExecuteProcess(
-#                 cmd=['gz','sim','-v4','-r'+os.path.join(pkg_py_launch_example, 'worlds', 'iris_maze.sdf')]
-            # )
+
+# #  ExecuteProcess(
+# #                 cmd=['gz','sim','-v4','-r'+os.path.join(pkg_py_launch_example, 'worlds', 'iris_maze.sdf')]
+#             # )

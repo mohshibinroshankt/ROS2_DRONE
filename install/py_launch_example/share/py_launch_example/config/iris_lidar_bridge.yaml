@@ -42,3 +42,33 @@
   ros_type_name: "sensor_msgs/msg/BatteryState"
   gz_type_name: "gz.msgs.BatteryState"
   direction: GZ_TO_ROS
+
+- ros_topic_name: "rotor_0_force"
+  gz_topic_name: "/model/iris/joint/rotor_0_joint/cmd_force"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "rotor_1_force"
+  gz_topic_name: "/model/iris/joint/rotor_1_joint/cmd_force"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "rotor_2_force"
+  gz_topic_name: "/model/iris/joint/rotor_2_joint/cmd_force"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "rotor_3_force"
+  gz_topic_name: "/model/iris/joint/rotor_3_joint/cmd_force"
+  ros_type_name: "std_msgs/msg/Float64"
+  gz_type_name: "gz.msgs.Double"
+  direction: ROS_TO_GZ
+  
+- ros_topic_name: "iris_pose"
+  gz_topic_name: "/model/iris/pose"
+  ros_type_name: "geometry_msgs/msg/Pose"
+  gz_type_name: "gz.msgs.Pose"
+  direction: GZ_TO_ROS

@@ -1,0 +1,49 @@
+[2.908s] Invoking command in '/home/shibin/ros2_ws/src/py_launch_example': PYTHONPATH=/home/shibin/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/shibin/ros2_ws/build/py_launch_example/build install --record /home/shibin/ros2_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[3.757s] running egg_info
+[3.824s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[3.825s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[3.826s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[3.826s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[3.939s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[3.939s] adding license file 'LICENSE'
+[3.941s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[3.941s] running build
+[3.942s] running build_py
+[3.942s] copying py_launch_example/__init__.py -> /home/shibin/ros2_ws/build/py_launch_example/build/lib/py_launch_example
+[3.942s] running install
+[3.953s] running install_lib
+[4.011s] running install_data
+[4.012s] copying resource/py_launch_example -> /home/shibin/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[4.012s] copying package.xml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example
+[4.012s] copying launch/iris_ardu_indo.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[4.012s] copying launch/drone_gazebo_launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[4.012s] copying launch/wildthumper_playpen.launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[4.013s] copying launch/my_script_launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[4.013s] copying launch/iris_maze.launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[4.014s] copying launch/iris_runway.launch.py -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[4.014s] copying worlds/world.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.026s] copying worlds/zephyr_parachute.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.027s] copying worlds/harmonic.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.027s] copying worlds/iris_runway.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.028s] copying worlds/tugbot_warehouse.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.028s] copying worlds/wildthumper_playpen.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.028s] copying worlds/world_lakehouse.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.029s] copying worlds/iris_maze.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.029s] copying worlds/gimbal.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.033s] copying worlds/zephyr_runway.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.034s] copying worlds/training_env.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.034s] copying worlds/iris_warehouse.sdf -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/worlds
+[4.034s] copying config/iris_bridge.yaml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config
+[4.034s] copying config/ros_gz_example_bridge.yaml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config
+[4.035s] copying config/iris_lidar_bridge.yaml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config
+[4.035s] copying config/wildthumper_bridge.yaml -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/config
+[4.035s] copying rviz/iris.rviz -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz
+[4.035s] copying rviz/iris_with_lidar.rviz -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz
+[4.036s] copying rviz/drone_sensors.rviz -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz
+[4.036s] copying rviz/wildthumper.rviz -> /home/shibin/ros2_ws/install/py_launch_example/share/py_launch_example/rviz
+[4.036s] running install_egg_info
+[4.104s] removing '/home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info' (and everything under it)
+[4.109s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[4.110s] running install_scripts
+[4.620s] writing list of installed files to '/home/shibin/ros2_ws/build/py_launch_example/install.log'
+[4.689s] Invoked command in '/home/shibin/ros2_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/shibin/ros2_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shibin/ros2_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/shibin/ros2_ws/build/py_launch_example/build install --record /home/shibin/ros2_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
